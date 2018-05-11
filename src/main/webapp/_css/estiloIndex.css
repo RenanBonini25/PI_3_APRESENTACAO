@@ -1,0 +1,60 @@
+@font-face{
+    font-family: jupiter;
+    src: url('../_fontes/Never Surrender.otf');
+}
+#corpo{
+    float: right;
+}
+#dados{
+    border-style: solid;
+    padding: 20px;
+    border-width: 1px;
+    width: 1000px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('../_imagens/fundo1.jpg');
+    background-size: cover;
+}
+#formLogin{
+    font-size: 20px;
+    position: relative;
+    height: 50px;
+    width: 250px;	
+    border: 0;
+}
+#login{
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 2px;
+    width: 250px;
+}
+#formLogin::placeholder{
+    color:#DCDCDC;
+    font-size: 20px;
+}
+#seta{
+    position: absolute;
+    height: 20px;
+    margin-top: -35px;	
+    margin-left: 100px;
+    opacity: 0.5;
+}
+#seta:hover{
+    opacity: 1;
+}
+p{
+    font-family: jupiter;
+    font-size: 130px;
+    color: #FFF;
+    background: -webkit-linear-gradient(#F5DEB3, #8B4513);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+center{
+    padding-top: 10%;
+    margin-bottom: -200px;
+}
